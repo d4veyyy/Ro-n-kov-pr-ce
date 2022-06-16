@@ -1,0 +1,124 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="kz.css">
+   
+    <title>Vlastní zkoušení</title>
+</head>
+<body>
+    <div class="container">
+            <div class="mb-3 row">
+                <label for="jmeno" class="col-sm-3 col-form-label">S jakým týmem vyhrál b1t první turnaj?</label>
+                <div class="col-sm-9">
+                    <input type="text" class="form-control" name="jmeno" id="jmeno"
+                        placeholder="Zadej odpověd">
+                </div>
+                <div class="alert alert-success collapse spravne-odpovedi">Správná: NOTBAD</div>
+            </div>
+            <div class="mb-3 row">
+                <label for="barva" class="col-sm-3 col-form-label">Jaká je hlavní barva týmu navi?</label>
+                <div class="col-sm-9">
+                    <input type="color" class="form-control" name="barva" id="barva">
+                </div>
+                <div class="alert alert-success collapse spravne-odpovedi">Správná: Žlutá</div>
+            </div>
+            <div class="mb-3 row">
+                <label for="absence" class="col-sm-3 col-form-label">Kolik trofejí zvedl electronic za navi?</label>
+                <div class="col-sm-9">
+                    <input type="number" class="form-control" name="absence" id="absence" value="0" max="1280"
+                        min="0">
+                </div>
+            </div>
+            <div class="mb-3 row">
+                <label class="col-sm-3 col-form-label">Po jakém turnaji vyhodili Boombl4?</label>
+                <div class="col-sm-9">
+                    <div class="form-check form-check-inline">
+                        <label class="form-check-label">
+                            <input class="form-check-input" type="radio" name="pohlavi" id="muz" value="m"> PGL Stockholm 2021
+                        </label>
+                    </div>
+                    <div class="form-check form-check-inline">
+                        <label class="form-check-label">
+                            <input class="form-check-input" type="radio" name="pohlavi" id="zena" value="z"> PGL Antwerp 2022
+                        </label>
+                    </div>
+                    <div class="form-check form-check-inline">
+                        <label class="form-check-label">
+                            <input class="form-check-input" type="radio" name="pohlavi" id="jine" value="j"> Katowice 2022
+                        </label>
+                    </div>
+                    <div class="alert alert-success collapse spravne-odpovedi">Správná: PGL Antwerp 2022</div>
+            </div>
+            <div class="mb-3 row">
+                <label class="col-sm-3 col-form-label">Kdo je momentální trenér navi?</label>
+                <div class="col-sm-9">
+                    <div class="form-check">
+                        <input type="checkbox" class="form-check-input" name="firefox" id="firefox"
+                            value="checkedValue" checked>
+                        <label class="form-check-label" for="firefox">
+                            Snax
+                        </label>
+                    </div>
+                </div>
+                    <div class="form-check">
+                        <input type="checkbox" class="form-check-input" name="chrome" id="chrome"
+                            value="checkedValue" checked>
+                        <label class="form-check-label" for="chrome">
+                            broky
+                        </label>
+                    </div>
+                    <div class="form-check">
+                        <input type="checkbox" class="form-check-input" name="edge" id="edge" value="checkedValue"
+                            checked>
+                        <label class="form-check-label" for="edge">
+                            karrigan
+                        </label>
+                    </div>
+                </div>
+                    <div class="form-check">
+                        <input type="checkbox" class="form-check-input" name="opera" id="opera" value="checkedValue"
+                            checked>
+                        <label class="form-check-label" for="opera">
+                            B1ad3
+                        </label>
+                    </div>
+                    <div class="alert alert-success collapse spravne-odpovedi">Správná: B1ad3</div>
+            </div>
+            <div class="mb-3 row">
+                <label class="col-sm-3 col-form-label">Kolik získal hráč jménem s1mple MPV medailí?</label>
+                <div class="col-sm-9">
+                    <div class="mb-3">
+                        <label for="obory" class="form-label"></label>
+                        <select class="form-control" name="obory" id="obory">
+                            <option value="it">9</option>
+                            <option value="sv" selected>17</option>
+                            <option value="uo">22</option>
+                        </select>
+                    </div>
+                    <div class="alert alert-success collapse spravne-odpovedi">Správná: 17</div>
+            </div>
+            <div class="mb-3 row">
+                <label for="poznamka" class="col-sm-3 col-form-label">Poznámka</label>
+                <div class="col-sm-9">
+                    <div class="mb-3">
+                        <label for="poznamka" class="form-label"></label>
+                        <textarea class="form-control" name="poznamka" id="poznamka"
+                            rows="5">Napište nám vaši poznámku.</textarea>
+                    </div>
+                </div>
+            </div>
+    </div>
+    <div class="mb-3 row">
+        <div class="offset-sm-3 col-sm-9">
+            <button type="button" class="btn btn-primary" data-bs-toggle="modal"
+                data-bs-target="#myModal">Potvrdit</button>
+        </div>
+            </div>
+        </div>
+
+    
+</body>
+</html>

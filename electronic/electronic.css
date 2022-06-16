@@ -1,0 +1,58 @@
+@import url('https://fonts.googleapis.com/css2?family=Josefin+Sans:ital,wght@1,700&family=Lobster');
+h1{
+    text-align: center;
+    font-family: 'Josefin Sans', sans-serif;   
+    background-color: black;
+    color: yellow;
+    opacity: 0.75;
+    
+}
+body {
+    background-image: url('../img/pozadikehracum.jpg');
+    text-align: center;
+}
+h2{
+    background-color: rgba(0, 0, 0, 0.733);
+    color: yellow;
+    font-family: 'Josefin Sans', sans-serif;   
+    font-size: 50px;
+    text-align: left;
+}
+p{
+    font-family: 'Josefin Sans', sans-serif;
+    color: yellow;
+    background-color: rgba(0, 0, 0, 0.733);
+    font-size: 10px;
+}
+a{
+    color: yellow;
+    font-family: 'Josefin Sans', sans-serif; 
+    font-size: 30px;  
+
+}
+.dropdown-menu{
+    color: yellow;
+    font-family: 'Josefin Sans', sans-serif;   
+
+}
+p{
+    text-align: left;
+    color: yellow;
+    font-family: 'Josefin Sans', sans-serif;   
+    font-size: 30px;
+}
+.center {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 25%;
+}
+img{
+    width: 3%;
+}
+table, th, td {
+    border: 1px solid yellow;
+    background-color: black;
+    color: yellow;
+    
+  }
